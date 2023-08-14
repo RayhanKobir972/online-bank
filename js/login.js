@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     //DO NOT VERIFY email password on the client side
     //step-4: verify email and password
     if(email === 'sontan@baap.com' && password === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        alert('Tui password vule gecis!!! Toke teijjo sontan ghosona korlam');
     }
 })
